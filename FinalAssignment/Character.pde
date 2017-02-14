@@ -45,12 +45,12 @@ class Ch
       y = p.y;
     }
     else
-      vy += 1;
+      vy += 0.5;
     y += vy;
     if (keyPressed)
       if (key == 'd')
-        x += 5;
+        x += 3;
       else if (key == 'a')
-        x -= 5;
+        x -= 3;
   }
 }
