@@ -39,6 +39,23 @@ class Ch
   
   void move (Platform p)
   {
+    //jumping
+    if (keyPressed)
+    {
+      if (key == ' ')
+      {
+       ay=3;
+       vy+=ay;
+      }
+       //placeholder
+       else
+       ay=0;
+    }
+       
+       
+       
+       
+       
     if (onPlatform(p))
     {
       vy = 0;
