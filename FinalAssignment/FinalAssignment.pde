@@ -19,4 +19,6 @@ void draw ()
   q.move(platformList[0]);
   q.move(platformList[1]);
   q.display();
+  q.jump(platformList[0]);
+  q.jump(platformList[1]);
 }
