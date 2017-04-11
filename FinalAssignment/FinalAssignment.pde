@@ -22,3 +22,13 @@ void draw ()
   q.jump(platformList[0]);
   q.jump(platformList[1]);
 }
+
+
+void keyPressed ()
+{
+   if (key=='x')
+     {
+       Bullet();   
+      
+     }
+}
