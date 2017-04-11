@@ -75,3 +75,18 @@ class Ch
       
   }
 }
+
+ class Bullet 
+{
+  int x, y;
+  
+  Bullet()
+  {
+    this.x = q.x;
+    fill(255,0,0);
+       rect(x,y,10,10);
+       xx=0.1;   
+  }
+  
+  
+
